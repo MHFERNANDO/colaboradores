@@ -79,6 +79,7 @@ public class Principal {
             String cedula = leer.next();
             familiar.setCedula(cedula);
             System.out.println("Ingrese el nombre del familiar: "+(i+1) );
+            System.out.println("Hola");
             String nombre = leer.next();
             familiar.setNombre(nombre);
             System.out.println("Ingrese el apellido del familiar: "+(i+1));
