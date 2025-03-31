@@ -47,6 +47,8 @@ public class Principal {
         System.out.println("Inserte el numero de familiares a ingresar");
         numFamiliar= leer.nextInt();
 
+        //ola como estas
+
         Persona []personas = new Persona[numPersona+numFamiliar];
         Familiar []familiares = new Familiar[numFamiliar];
 
