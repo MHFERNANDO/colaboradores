@@ -26,7 +26,7 @@ public class Principal {
         familiar.setFechaDeNacimiento(calendar);
         //Imprimir con el toString
         System.out.println(persona);*/
-
+    //ola
         /*Familiar  familiar = new Familiar();
         Scanner leer = new Scanner(System.in);
         int anioP=2006;
@@ -46,6 +46,8 @@ public class Principal {
         numPersona= leer.nextInt();
         System.out.println("Inserte el numero de familiares a ingresar");
         numFamiliar= leer.nextInt();
+
+        //ola como estas
 
         Persona []personas = new Persona[numPersona+numFamiliar];
         Familiar []familiares = new Familiar[numFamiliar];
@@ -87,6 +89,7 @@ public class Principal {
             String direccion = leer.next();
             familiar.setDireccion(direccion);
             System.out.println("Inserte el parentesco del familiar: "+(i+1));
+            System.out.println("fnsdjgnjsdg");
             String parentesco = leer.next();
             familiar.setParentesco(parentesco);
             System.out.println("Inserte el tipo de sangre del familiar: "+(i+1));
