@@ -80,6 +80,7 @@ public class Principal {
             String nombre = leer.next();
             familiar.setNombre(nombre);
             System.out.println("Ingrese el apellido del familiar: "+(i+1));
+            System.out.println("jsfksdjkds");
             String apellido = leer.next();
             familiar.setApellido(apellido);
             System.out.println("Ingrese la direccion del familiar: "+(i+1));
