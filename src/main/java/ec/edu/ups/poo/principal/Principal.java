@@ -26,7 +26,7 @@ public class Principal {
         familiar.setFechaDeNacimiento(calendar);
         //Imprimir con el toString
         System.out.println(persona);*/
-
+    //ola
         /*Familiar  familiar = new Familiar();
         Scanner leer = new Scanner(System.in);
         int anioP=2006;
