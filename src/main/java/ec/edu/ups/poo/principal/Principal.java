@@ -74,11 +74,11 @@ public class Principal {
         for (int i=0; i< numFamiliar;i++){
 //aaa
             Familiar familiar = new Familiar();
-            System.out.println("Me encanta el huevito");
             System.out.println("Ingresa el numero de cedula del familiar:"+(i+1));
             String cedula = leer.next();
             familiar.setCedula(cedula);
             System.out.println("Ingrese el nombre del familiar: "+(i+1) );
+            System.out.println("Hola");
             String nombre = leer.next();
             familiar.setNombre(nombre);
             System.out.println("Ingrese el apellido del familiar: "+(i+1));
